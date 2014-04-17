@@ -35,8 +35,8 @@ public class HelloServlet extends HttpServlet {
         out.println("<body>");
         out.println("<h1>Tomcat Demo App</h1>");
 	out.println("<h2>Hi! I'm a Tomcat application you successfully deployed  with Murano!</h2>");
-	out.println("<h2>I'm using PostgresSQl which was installed in the same environment.</h2>");
-        out.println("<p>Machine hostname is : " + hostName + "</p>");
+	out.println("<h2>I'm using PostgresSQL which was installed in the same environment.</h2>");
+        out.println("<p>Machine hostname is <i> " + hostName + "</i></p>");
         out.println("</html>");
         out.println("</body>");
     }
